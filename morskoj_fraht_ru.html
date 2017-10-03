@@ -75,7 +75,7 @@
                       <li><a href="multimodalnyy_fraht.html">Мультимодальные перевозки</a></li>
                     </ul>
                   </li>
-                      <li><a href="kontakty.html">Контакты</a></li>
+                      <li><a href="kotakty.html">Контакты</a></li>
                       <li><a href="novosti.html">Новости</a></li>
              <li><a href="blog_ru.html">Блог</a></li>
              <li><a href="index.html">EN</a></li>
@@ -88,7 +88,7 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-6 col-sm-offset-3">
-                <h2 class="module-title font-alt">Морской фрахт</h2>
+                <h1 class="module-title font-alt">Морской фрахт</h1>
                 <div class="module-subtitle font-serif">Контейнерные перевозки по морю</div>
               </div>
             </div>
@@ -136,12 +136,22 @@
             <div class="row">
               <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
                 <div class="callout-text font-alt">
-                  <h3 class="callout-title wow slideInUp">Интересно узнать наши последние рабочие ставки морских фрахтов?</h3>
-                  
+                  <h3 class="callout-title wow slideInUp">Интересно узнать ставки морских фрахтов?</h3>
+                  <p>Укажите свой е-mail и Вы получите в ответ таблицу наших рабочих ставок в течении 30 минут.</p>
                 </div>
               </div>
-              <div class="col-sm-6 col-md-4 col-lg-2">
-                <div class="callout-btn-box"><a class="btn btn-w btn-round wow slideInUp" href=#rates>Да!</a></div>
+             
+               <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="callout-btn-box wow slideInUp">
+                  <form id="subscription-form" role="form" method="post" action="php/subscribe.php">
+                    <div class="input-group">
+                      <input class="form-control" type="email" id="semail" name="semail" placeholder="Ваш Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
+                        <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Отправить</button></span>
+                    </div>
+                  </form>
+                  <div class="text-center" id="subscription-response"></div>
+                </div>
+              </div>
               </div>
             </div>
           </div>
@@ -236,7 +246,7 @@
                     <li>Ставка морского фрахта</li>
                     <li><span>Выгрузка контейнера с судна</span></li>
                     <li><span>Линейные сборы в порту назначения</span></li>
-                  </ul><a class="btn btn-d btn-round" href="#">Get quote</a>
+                  </ul><a class="btn btn-d btn-round" href="#">Расчет цены</a>
                 </div>
               </div>
               <div class="col-sm-6 col-md-3 col-lg-3">
